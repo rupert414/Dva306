@@ -280,6 +280,15 @@
 		EF2FE68F17FF00150045B8C2 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2FE68E17FF00150045B8C2 /* libwebsockets.a */; };
 		EF2FE69517FF00150045B8C2 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE69417FF00150045B8C2 /* AppDelegate.cpp */; };
 		EF2FE69817FF00150045B8C2 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE69717FF00150045B8C2 /* HelloWorldScene.cpp */; };
+		EF2FE6A117FF23780045B8C2 /* Boat.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2FE69E17FF23780045B8C2 /* Boat.png */; };
+		EF2FE6A617FF24060045B8C2 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2FE6A417FF24060045B8C2 /* Ground.png */; };
+		EF2FE6A717FF24060045B8C2 /* Water.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2FE6A517FF24060045B8C2 /* Water.png */; };
+		EF2FE6AA17FF241E0045B8C2 /* Boat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE6A817FF241E0045B8C2 /* Boat.cpp */; };
+		EF2FE6AD17FF242B0045B8C2 /* Ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE6AB17FF242B0045B8C2 /* Ground.cpp */; };
+		EF2FE6B017FF24360045B8C2 /* Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE6AE17FF24360045B8C2 /* Water.cpp */; };
+		EF2FE6B317FF261F0045B8C2 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE6B117FF261F0045B8C2 /* Tile.cpp */; };
+		EF2FE6B617FF36A60045B8C2 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE6B417FF36A60045B8C2 /* Map.cpp */; };
+		EF2FE6B817FF47C40045B8C2 /* levelTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF2FE6B717FF47C40045B8C2 /* levelTest.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -873,6 +882,20 @@
 		EF2FE69417FF00150045B8C2 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		EF2FE69617FF00150045B8C2 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		EF2FE69717FF00150045B8C2 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		EF2FE69E17FF23780045B8C2 /* Boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boat.png; sourceTree = "<group>"; };
+		EF2FE6A417FF24060045B8C2 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
+		EF2FE6A517FF24060045B8C2 /* Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Water.png; sourceTree = "<group>"; };
+		EF2FE6A817FF241E0045B8C2 /* Boat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Boat.cpp; sourceTree = "<group>"; };
+		EF2FE6A917FF241E0045B8C2 /* Boat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boat.h; sourceTree = "<group>"; };
+		EF2FE6AB17FF242B0045B8C2 /* Ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ground.cpp; sourceTree = "<group>"; };
+		EF2FE6AC17FF242B0045B8C2 /* Ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ground.h; sourceTree = "<group>"; };
+		EF2FE6AE17FF24360045B8C2 /* Water.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Water.cpp; sourceTree = "<group>"; };
+		EF2FE6AF17FF24360045B8C2 /* Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Water.h; sourceTree = "<group>"; };
+		EF2FE6B117FF261F0045B8C2 /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		EF2FE6B217FF261F0045B8C2 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		EF2FE6B417FF36A60045B8C2 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		EF2FE6B517FF36A60045B8C2 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		EF2FE6B717FF47C40045B8C2 /* levelTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = levelTest.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +967,10 @@
 		EF2FE30217FF000A0045B8C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF2FE6B717FF47C40045B8C2 /* levelTest.txt */,
+				EF2FE6A417FF24060045B8C2 /* Ground.png */,
+				EF2FE6A517FF24060045B8C2 /* Water.png */,
+				EF2FE69E17FF23780045B8C2 /* Boat.png */,
 				EF2FE30317FF000A0045B8C2 /* CloseNormal.png */,
 				EF2FE30517FF000A0045B8C2 /* CloseSelected.png */,
 				EF2FE30717FF000A0045B8C2 /* Default.png */,
@@ -2097,6 +2124,16 @@
 				EF2FE69417FF00150045B8C2 /* AppDelegate.cpp */,
 				EF2FE69617FF00150045B8C2 /* HelloWorldScene.h */,
 				EF2FE69717FF00150045B8C2 /* HelloWorldScene.cpp */,
+				EF2FE6A817FF241E0045B8C2 /* Boat.cpp */,
+				EF2FE6A917FF241E0045B8C2 /* Boat.h */,
+				EF2FE6AB17FF242B0045B8C2 /* Ground.cpp */,
+				EF2FE6AC17FF242B0045B8C2 /* Ground.h */,
+				EF2FE6AE17FF24360045B8C2 /* Water.cpp */,
+				EF2FE6AF17FF24360045B8C2 /* Water.h */,
+				EF2FE6B117FF261F0045B8C2 /* Tile.cpp */,
+				EF2FE6B217FF261F0045B8C2 /* Tile.h */,
+				EF2FE6B417FF36A60045B8C2 /* Map.cpp */,
+				EF2FE6B517FF36A60045B8C2 /* Map.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2164,6 +2201,10 @@
 				EF2FE31817FF000A0045B8C2 /* iTunesArtwork in Resources */,
 				EF2FE3B717FF000C0045B8C2 /* ChangeLog in Resources */,
 				EF2FE52B17FF00110045B8C2 /* project.pbxproj in Resources */,
+				EF2FE6A117FF23780045B8C2 /* Boat.png in Resources */,
+				EF2FE6A617FF24060045B8C2 /* Ground.png in Resources */,
+				EF2FE6A717FF24060045B8C2 /* Water.png in Resources */,
+				EF2FE6B817FF47C40045B8C2 /* levelTest.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2423,6 +2464,11 @@
 				EF2FE68717FF00150045B8C2 /* cpVect.c in Sources */,
 				EF2FE69517FF00150045B8C2 /* AppDelegate.cpp in Sources */,
 				EF2FE69817FF00150045B8C2 /* HelloWorldScene.cpp in Sources */,
+				EF2FE6AA17FF241E0045B8C2 /* Boat.cpp in Sources */,
+				EF2FE6AD17FF242B0045B8C2 /* Ground.cpp in Sources */,
+				EF2FE6B017FF24360045B8C2 /* Water.cpp in Sources */,
+				EF2FE6B317FF261F0045B8C2 /* Tile.cpp in Sources */,
+				EF2FE6B617FF36A60045B8C2 /* Map.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2564,6 +2610,7 @@
 				EF2FE69D17FF00150045B8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
